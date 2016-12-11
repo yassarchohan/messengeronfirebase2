@@ -1,0 +1,28 @@
+ Authentication:   important download Gapps for genymotion,arm translation
+
+1.create new project in firebase.
+2. follow same procedure for firebase
+3. go to realtime database select complie" firebase:firebase-database 
+4. after this go to your database in firebase and to rules and keep auth default
+5.do simple write and copy the code from realdatabase doc.
+6.run the app, and retruns in last logcat permission denied
+7.go to auth menu set sign in method and choose from gmail and enabled it.
+8.create UI of email and password with one button in project.
+9.create 2 buttons signin and signup.
+10.create textview for error message.
+11. go to mainactivty and do.
+
+	find views of both edittexts.
+12. now go to auth add compile.
+13. create new method authsetup and add authlistener to it.
+14.instead of log do Toast message
+15.auth setup created but not attached.
+16.create to methdos start and stop and attach to it.
+
+17.on signup create mauth.createuserwithemailandpassword(" "," ")
+18. .addonclick and copy it from firebase doc.
+19.attach same from firebase for signin as well and run application
+
+
+
+ 
